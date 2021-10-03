@@ -65,6 +65,9 @@ require 'includes/functions.inc.php';
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="email.php">Email</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link text-danger" href="includes/actions/logout.inc.php">Log Out</a>
                     </li>
                 </ul>
