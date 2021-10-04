@@ -5,7 +5,7 @@ require('header.php');
         <section class="login-inner">
             <div class="login-middle">
                 <div class="login-details">
-                    <form action="includes/actions/email.inc.php" method="post">
+                    <form action="includes/actions/email.inc.php" method="POST">
                         <h2>Email</h2>
                         <label>
                             <input type="text" class="form-control" name="mail" placeholder="E-mail"/>
@@ -17,7 +17,7 @@ require('header.php');
                             <input type="text" class="form-control" name="message" placeholder="message">
                         </label>
                         <div class="btn-sub">
-                            <button class="pink-btn" name="email">Send</button>
+                            <button type="submit" class="pink-btn" name="email">Send</button>
                         </div>
                     </form>
                 </div>
