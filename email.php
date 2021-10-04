@@ -5,7 +5,7 @@ require('header.php');
         <section class="login-inner">
             <div class="login-middle">
                 <div class="login-details">
-                    <form action="includes/actions/email.inc.php" method="POST">
+                    <form action="includes/actions/contact.php" method="POST">
                         <h2>Email</h2>
                         <label>
                             <input type="text" class="form-control" name="mail" placeholder="E-mail"/>
